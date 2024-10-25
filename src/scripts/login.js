@@ -2,12 +2,12 @@ import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
 import { z } from 'zod';
 
-const loginSchema = z.object({
+export const loginSchema = z.object({
   username: z.string().email("Email inválido").min(1, "Email é obrigatório"),
   password: z.string().min(6, "Senha deve ter pelo menos 6 caracteres"),
 });
 
-const registerSchema = z.object({
+export const registerSchema = z.object({
   name: z.string().min(1, "Nome é obrigatório"),
   cpf: z.string().min(1, "CPF é obrigatório"),
   username: z.string().email("Email inválido").min(1, "Email é obrigatório"),

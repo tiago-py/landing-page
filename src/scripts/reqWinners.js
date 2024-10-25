@@ -1,7 +1,7 @@
 import { ref, onMounted } from 'vue';
 
-const winners = ref([]); // Renomeado para 'winners' para melhor compreensão
-const openIndex = ref(-1);
+export const winners = ref([]); // Renomeado para 'winners' para melhor compreensão
+export const openIndex = ref(-1);
 
 export const toggle = (index) => {
     openIndex.value = openIndex.value === index ? -1 : index;
