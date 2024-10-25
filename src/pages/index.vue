@@ -13,14 +13,14 @@
   </template>
   
   <script setup>
-  import HowToParticipate from './src/components/HowToParticipate.vue';
-  import Prizes from './src/components/Prizes.vue';
-  import FAQ from './src/components/FAQ.vue';
-  import Winners from './src/components/Winners.vue';
-  import Draws from './src/components/Draws.vue';
-  import Footer from './src/components/Footer.vue';
-  import HeroSection from './src/components/HeroSection.vue';
-  import Navbar from './src/components/Navbar.vue';
+  import HowToParticipate from '../components/HowToParticipate.vue';
+  import Prizes from '../components/Prizes.vue';
+  import FAQ from '../components/FAQ.vue';
+  import Winners from '../components/Winners.vue';
+  import Draws from '../components/Draws.vue';
+  import Footer from '../components/Footer.vue';
+  import HeroSection from '../components/HeroSection.vue';
+  import Navbar from '../components/Navbar.vue';
   </script>
   
   <style>
