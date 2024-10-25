@@ -1,0 +1,74 @@
+/* Estilos do cabeçalho */
+html, body {
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove preenchimento padrão do body */
+    width: 100%; /* Garante que o corpo ocupe 100% da largura */
+    overflow-x: hidden; /* Previne rolagem horizontal indesejada */
+  }
+  
+  header {
+    z-index: 20;
+    position: absolute;
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Alinhando o conteúdo à esquerda */
+    align-items: center;
+    position: relative;
+    width: 100%; /* Garante que o cabeçalho ocupe 100% da largura */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: Adiciona uma sombra ao cabeçalho */
+  }
+  
+  .logo {
+    color: white;
+    font-size: 28px;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: 30px;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 35px;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .auth-buttons {
+      display: none;
+    }
+  }

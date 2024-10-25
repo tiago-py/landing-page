@@ -1,0 +1,68 @@
+.winners-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+.accordion-header:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-body {
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.indicator {
+    font-size: 1.5rem;
+}
+
+.winner-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    transition: box-shadow 0.3s;
+}
+
+.winner-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.winner-info {
+    text-align: left;
+}
+
+.prize {
+    font-weight: bold;
+    color: #28a745;
+}

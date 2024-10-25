@@ -1,0 +1,35 @@
+/* Estilo do banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .banner h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .cta-button {
+    background-color: #666;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
