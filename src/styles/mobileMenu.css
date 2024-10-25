@@ -46,6 +46,7 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+    
   }
   
   .slide-fade-enter-active,
@@ -57,5 +58,13 @@
   .slide-fade-leave-to {
     opacity: 0;
     transform: translateY(-100%);
+  }
+  .logout-button {
+    background: none;
+    border: none;
+    color: red; /* Ou a cor que você preferir */
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
   }
   

@@ -30,7 +30,7 @@
           <span v-else>{{ isRegisterMode ? 'Registrar' : 'Entrar' }}</span>
         </button>
         <p class="link-group">
-          <span @click="toggleMode" class="link">{{ isRegisterMode ? 'Já tem uma conta? Faça login' : 'Não tem uma conta? Registre - se' }}</span>
+          <span @click="toggleMode" class="link">{{ isRegisterMode ? 'Bem vindo de volta!' : 'Registre-se' }}</span>
           <span @click="resetPassword" class="link">Esqueci a senha</span>
         </p>
         <p v-if="errorMessage" class="error-message">{{ errorMessage }}</p>
@@ -98,20 +98,14 @@ export default {
         });
 
         if (!response.ok) {
-          throw new Error('Credenciais inválidas. Tente novamente.');
+          throw new Error('Erro durante o cadastro!!');
         }
         
         const data = await response.json();
         console.log(data)
          localStorage.setItem('token', data.token); // Supondo que o token esteja no campo 'token'
          localStorage.setItem('userName', data.user.name);
-        if (isRegisterMode.value) {
-          alert('Registro realizado com sucesso!');
-          // Opcional: redirecionar ou fazer outra ação após o registro
-        } else {
-          // Aqui você pode armazenar o token ou os dados do usuário conforme necessário
-          router.push('/');
-        }
+        router.push('/');
       } catch (error) {
         if (error.errors) {
           error.errors.forEach(e => {

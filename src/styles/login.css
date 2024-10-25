@@ -68,4 +68,5 @@
   .link {
     color: #1e40af; /* Link color */
     cursor: pointer;
+    margin: 20px;
   }

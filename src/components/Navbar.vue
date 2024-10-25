@@ -9,7 +9,10 @@
       <a href="#">GANHADORES</a>
     </nav>
     <div class="auth-buttons" v-if="!isMobile">
-      <div v-if="userName" class="login-link">Olá, {{ userName }}</div>
+      <div v-if="userName" class="login-link">
+        Olá, {{ userName }}.
+        <button @click="logout" class="logout-button">Sair</button>
+      </div>
       <router-link v-else to="login" class="login-link">LOGIN/ CADASTRAR</router-link>
     </div>
     <div class="hamburger" @click="toggleMenu">
@@ -45,12 +48,22 @@ const loadUserName = () => {
   userName.value = localStorage.getItem('userName') || '';
 };
 
+const logout = () => {
+  // Remover dados do usuário do armazenamento local
+  localStorage.removeItem('token');
+  localStorage.removeItem('userName');
+  
+  // Redirecionar para a página de login
+  router.push('/login');
+};
+
 // Ao montar o componente, inicializar o status do mobile e adicionar o listener para resize
 onMounted(() => {
   updateMobileStatus();
   loadUserName(); // Carrega o nome do usuário
   window.addEventListener('resize', updateMobileStatus);
 });
+
 </script>
 
 <style src="../styles/header.css"></style>

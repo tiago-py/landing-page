@@ -67,8 +67,14 @@ html, body {
     .hamburger {
       display: flex;
     }
-  
-    .auth-buttons {
-      display: none;
-    }
   }
+
+  .logout-button {
+    background: none;
+    border: none;
+    color: red; /* Ou a cor que você preferir */
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  

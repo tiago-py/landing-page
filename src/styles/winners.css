@@ -11,14 +11,8 @@
     text-align: center;
 }
 
-.accordion {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-}
 
-.accordion-item {
-    border-bottom: 1px solid #ddd;
-}
+
 
 .accordion-header {
     display: flex;
@@ -28,7 +22,6 @@
     cursor: pointer;
     background-color: #f0f0f0;
     transition: background-color 0.3s;
-    border-radius: 8px;
 }
 
 .accordion-header:hover {
@@ -38,7 +31,6 @@
 .accordion-body {
     padding: 1rem;
     background-color: #fff;
-    border-top: 1px solid #ddd;
 }
 
 .indicator {
@@ -48,8 +40,6 @@
 .winner-item {
     margin-bottom: 1rem;
     padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
     background-color: #fafafa;
     transition: box-shadow 0.3s;
 }
