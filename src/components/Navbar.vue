@@ -1,6 +1,10 @@
 <template>
   <header>
-    <div class="logo">LOGO</div>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/90/90808.png" alt="Logo" class="logo">
+      Braga Tech
+      
+    </div>
     <nav class="navbar">
       <a href="#">HOME</a>
       <a href="#">COMO PARTICIPAR</a>

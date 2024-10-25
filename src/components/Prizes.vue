@@ -20,12 +20,12 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const currentIndex = ref(0);
 const items = ref([
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 1: Descrição do prêmio.' },
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 2: Descrição do prêmio.' },
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 3: Descrição do prêmio.' },
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 4: Descrição do prêmio.' },
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 5: Descrição do prêmio.' },
-    { img: 'https://openui.fly.dev/openui/400x400.svg?text=🖼️', description: 'Prêmio 6: Descrição do prêmio.' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'PlayStation 5' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'Xbox Series S' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'Computador gamer de última geração' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'Controles' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'Vale Presentes na Kabum' },
+    { img: 'https://preview.redd.it/windows-11-black-abstract-bloom-1920x1080-v0-vfj65y1spo2b1.jpg?auto=webp&s=f6f92b772b1e0f3cea89857306d1e11b0855960a', description: 'Teclado Gamer' },
 ]);
 
 const visibleItems = ref(3);

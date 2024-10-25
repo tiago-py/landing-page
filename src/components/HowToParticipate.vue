@@ -18,10 +18,10 @@
 
 <script setup>
 const steps = [
-{ id: 1, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 1", title: "Passo 1", description: "Acesse nosso site e crie uma conta." },
-{ id: 2, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 2", title: "Passo 2", description: "Faça login na sua conta." },
-{ id: 3, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 3", title: "Passo 3", description: "Escolha o sorteio que deseja participar." },
-{ id: 4, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 4", title: "Passo 4", description: "Clique no botão 'CADASTRAR-SE'." }
+{ id: 1, image: "https://cdn.icon-icons.com/icons2/2248/PNG/512/account_circle_icon_137996.png", alt: "Passo 1", title: "Passo 1", description: "Acesse nosso site e crie uma conta." },
+{ id: 2, image: "https://cdn-icons-png.flaticon.com/512/64/64484.png", alt: "Passo 2", title: "Passo 2", description: "Faça login na sua conta." },
+{ id: 3, image: "https://prints.ultracoloringpages.com/49bca2e17d55900152aeb3052c2d6d7e.png", alt: "Passo 3", title: "Passo 3", description: "Escolha o sorteio que deseja participar." },
+{ id: 4, image: "https://cdn-icons-png.flaticon.com/512/154/154346.png", alt: "Passo 4", title: "Passo 4", description: "Clique no botão 'CADASTRAR-SE'." }
 ];
 </script>
 
