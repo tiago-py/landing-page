@@ -53,7 +53,6 @@ const fetchDraws = async () => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        console.log(data);
         draws.value = data; // Armazena a lista de sorteios
     } catch (error) {
         console.error('Erro ao buscar os próximos sorteios:', error);

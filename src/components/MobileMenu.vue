@@ -3,8 +3,9 @@
     <div v-if="isMenuOpen" class="mobile-menu">
       <button class="close-button" @click="$emit('closeMenu')">&times;</button>
       <nav>
-        <div class="login-section">
-          <a href="#" class="login-link">LOGIN/ CADASTRAR</a>
+        <div v-if="userName" class="login-link" style="margin-bottom: 30px;">Bem-vindo, {{ userName }}!</div>
+        <div v-else class="auth-buttons">
+          <router-link to="login" class="login-link">LOGIN/ CADASTRAR</router-link>
         </div>
         <a href="#">HOME</a>
         <a href="#">COMO PARTICIPAR</a>
@@ -19,6 +20,9 @@
 <script setup>
 const props = defineProps({
   isMenuOpen: Boolean
+});
+const userName = computed(() => {
+  return localStorage.getItem('userName');
 });
 </script>
 
