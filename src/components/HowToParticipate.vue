@@ -25,4 +25,4 @@ const steps = [
 ];
 </script>
 
-<style src="../styles/howToParticipate.css"></style>
+<style src="../styles/HowToParticipate.css"></style>
