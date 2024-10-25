@@ -70,4 +70,4 @@ onUnmounted(() => {
 });
 </script>
 
-<style src="../../styles/prizes.css"></style>
+<style src="../styles/prizes.css"></style>

@@ -78,4 +78,4 @@ onMounted(() => {
 });
 </script>
 
-<style src="../../styles/winners.css"></style>
+<style src="../styles/winners.css"></style>

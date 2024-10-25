@@ -13,4 +13,4 @@
 <script setup>
 </script>
 
-<style src="../../styles/hero.css"></style>
+<style src="../styles/hero.css"></style>

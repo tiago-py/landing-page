@@ -36,4 +36,4 @@ const isOpen = (index) => {
 };
 </script>
 
-<style src="../../styles/faq.css"></style>
+<style src="../styles/faq.css"></style>

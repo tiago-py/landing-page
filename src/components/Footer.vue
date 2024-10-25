@@ -37,4 +37,4 @@ export default {
 };
 </script>
 
-<style src="../../styles/footer.css"></style>
+<style src="../styles/footer.css"></style>

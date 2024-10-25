@@ -65,4 +65,4 @@ onMounted(() => {
 });
 </script>
 
-<style src="../../styles/draws.css"></style>
+<style src="../styles/draws.css"></style>

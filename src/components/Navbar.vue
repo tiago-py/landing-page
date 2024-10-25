@@ -9,7 +9,7 @@
         <a href="#">GANHADORES</a>
       </nav>
       <div class="auth-buttons" v-if="!isMobile">
-        <router-link to="/login" class="login-link">LOGIN/ CADASTRAR</router-link>
+        <router-link to="login" class="login-link">LOGIN/ CADASTRAR</router-link>
       </div>
       <div class="hamburger" @click="toggleMenu">
         <div class="line"></div>
@@ -44,4 +44,4 @@
   });
   </script>
   
-  <style src="../../styles/header.css"></style>
+  <style src="../styles/header.css"></style>

@@ -159,5 +159,5 @@
   };
   </script>
   
-  <style src="../../styles/login.css"></style>
+  <style src="../styles/login.css"></style>
   

@@ -22,4 +22,4 @@ const props = defineProps({
 });
 </script>
 
-<style src="../../styles/mobileMenu.css"></style>
+<style src="../styles/mobileMenu.css"></style>
