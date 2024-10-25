@@ -9,7 +9,7 @@
         <a href="#">GANHADORES</a>
       </nav>
       <div class="auth-buttons" v-if="!isMobile">
-        <a href="#" class="login-link">LOGIN/ CADASTRAR</a>
+        <router-link to="/login" class="login-link">LOGIN/ CADASTRAR</router-link>
       </div>
       <div class="hamburger" @click="toggleMenu">
         <div class="line"></div>

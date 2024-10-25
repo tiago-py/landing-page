@@ -1,42 +1,28 @@
 <template>
-  <div class="how-to-participate">
-    <h2 class="title">COMO PARTICIPAR</h2>
-    <div class="image-container">
-      <div class="image-box">
-        <img src="https://openui.fly.dev/openui/350x350.svg?text=🖼️" alt="Passo 1" />
-      </div>
-      <div class="image-box">
-        <img src="https://openui.fly.dev/openui/350x350.svg?text=🖼️" alt="Passo 2" />
-      </div>
-      <div class="image-box">
-        <img src="https://openui.fly.dev/openui/350x350.svg?text=🖼️" alt="Passo 3" />
-      </div>
-      <div class="image-box">
-        <img src="https://openui.fly.dev/openui/350x350.svg?text=🖼️" alt="Passo 4" />
-      </div>
-    </div>
-    <button class="register-button">CADASTRAR-SE</button>
-
-    <div class="steps">
-      <h3 class="steps-title">Passo a Passo:</h3>
+  <div class="how-to-participate" id="howToParticipate">
+      <h2 class="title">COMO PARTICIPAR</h2>
       <div class="steps-container">
-        <ol>
-          <li>Acesse nosso site e crie uma conta.</li>
-          <li>Faça login na sua conta.</li>
-        </ol>
-        <ol>
-          <li>Escolha o sorteio que deseja participar.</li>
-          <li>Preencha o formulário de participação.</li>
-        </ol>
-        <ol>
-          <li>Clique no botão "CADASTRAR-SE".</li>
-          <li>Aguarde o resultado do sorteio!</li>
-        </ol>
+          <div class="step" v-for="step in steps" :key="step.id">
+              <div class="image-box">
+                  <img :src="step.image" :alt="step.alt" />
+              </div>
+              <div class="card">
+                  <h4>{{ step.title }}</h4>
+                  <p>{{ step.description }}</p>
+              </div>
+          </div>
       </div>
-    </div>
+      <button class="register-button" aria-label="Botão para cadastrar-se">CADASTRAR-SE</button>
   </div>
 </template>
 
 <script setup>
-import '../styles/HowToParticipate.css'; // Importa o CSS do componente
+const steps = [
+{ id: 1, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 1", title: "Passo 1", description: "Acesse nosso site e crie uma conta." },
+{ id: 2, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 2", title: "Passo 2", description: "Faça login na sua conta." },
+{ id: 3, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 3", title: "Passo 3", description: "Escolha o sorteio que deseja participar." },
+{ id: 4, image: "https://openui.fly.dev/openui/350x350.svg?text=🖼️", alt: "Passo 4", title: "Passo 4", description: "Clique no botão 'CADASTRAR-SE'." }
+];
 </script>
+
+<style src="../../styles/howToParticipate.css"></style>

@@ -6,6 +6,7 @@
     <Prizes />
     <FAQ />
     <Winners />
+    <Draws />
     <Footer />
     <NuxtPage />
   </div>
@@ -16,6 +17,7 @@ import HowToParticipate from './src/components/HowToParticipate.vue';
 import Prizes from './src/components/Prizes.vue';
 import FAQ from './src/components/FAQ.vue';
 import Winners from './src/components/Winners.vue';
+import Draws from './src/components/Draws.vue';
 import Footer from './src/components/Footer.vue';
 import HeroSection from './src/components/HeroSection.vue';
 import Navbar from './src/components/Navbar.vue';

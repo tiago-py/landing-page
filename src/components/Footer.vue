@@ -2,11 +2,10 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <img aria-hidden="true" alt="logo" src="https://openui.fly.dev/openui/24x24.svg?text=🖥️" />
                 <div>
                     <h2>LOGO</h2>
-                    <p>Powered by:</p>
-                    <img aria-hidden="true" alt="polgo logo" src="https://openui.fly.dev/openui/24x24.svg?text=🐙" />
+                    <p>Powered by: <strong>Polgo</strong> <img aria-hidden="true" alt="polgo logo" src="https://openui.fly.dev/openui/24x24.svg?text=🐙" /></p>
+                    
                 </div>
             </div>
             <div class="footer-links">
