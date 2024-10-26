@@ -3,7 +3,6 @@
         <div class="footer-container">
             <div class="footer-logo">
                 <div>
-                    <h2>LOGO</h2>
                     <p>Powered by: <strong>Polgo</strong> <img aria-hidden="true" alt="polgo logo" src="https://openui.fly.dev/openui/24x24.svg?text=🐙" /></p>
                     
                 </div>
